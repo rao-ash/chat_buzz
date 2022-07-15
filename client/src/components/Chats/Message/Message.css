@@ -1,0 +1,23 @@
+.divOuter{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin: 5px 0px;
+}
+.divInner{
+  border-radius: 10px;
+  padding: 8px;
+  max-width: 70%;
+}
+.text {
+  width: 100%;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+.sender{
+  display: flex;
+  align-items: center;
+  font-family: 'Brush Script MT', cursive;
+  color: #828282;
+  padding-left: 5px;
+}

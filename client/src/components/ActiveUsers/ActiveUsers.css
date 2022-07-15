@@ -1,0 +1,18 @@
+.userBox{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+.item{
+  display: flex;
+  align-items: center;
+  color:cornsilk;
+} 
+@media (max-width:600px) {
+  .userBox{
+    display: none;
+  }
+} 
